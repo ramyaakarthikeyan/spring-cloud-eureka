@@ -1,3 +1,6 @@
+server:
+  port: 9092
+
 eureka:
   client:
     registerWithEureka: true
@@ -6,8 +9,6 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
-server:
-  port: 9092
 spring:
   application:
-    name: MYSHOPPING   
+    name: SHOPPING-SERVICE
